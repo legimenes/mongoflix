@@ -1,0 +1,16 @@
+* Structure
+
+dotnet new sln --name mongoFlix
+dotnet new webapi --name mongoFlix.API -f netcoreapp3.1
+
+dotnet sln add .\src\mongoFlix.API\mongoFlix.API.csproj
+
+* nuget packages
+
+dotnet add package MongoDB.Driver --version 2.11.0
+dotnet add package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation --version 3.1.7
+
+* url references
+
+https://github.com/somaditya/mflix-java/tree/master/mflix/src/main/java/mflix/api/models
+https://thecodebuzz.com/mongodb-repository-implementation-unit-testing-net-core-example/
