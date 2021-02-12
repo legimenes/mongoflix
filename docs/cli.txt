@@ -8,7 +8,6 @@ dotnet sln add .\src\mongoFlix.API\mongoFlix.API.csproj
 * nuget packages
 
 dotnet add package MongoDB.Driver --version 2.11.0
-dotnet add package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation --version 3.1.7
 
 * url references
 
